@@ -1,0 +1,112 @@
+ .header {
+     background-color: #d9d9d9;
+     text-align: right;
+     padding: 20px;
+     font-size: 30px;
+     height: 30px;
+     width: 99%;
+     top: 0;
+     display: block;
+     align-items: center;
+ }
+
+ .header::before {
+     content: " ";
+     align-items: center;
+     display: inline-block;
+     width: 45px;
+     height: 45px;
+     margin-left: 80px;
+     background: url("noti.png")no-repeat;
+     background-size: contain;
+     float: center;
+ }
+
+ .header::after {
+     content: " ";
+     align-items: center;
+     display: inline-block;
+     width: 45px;
+     height: 45px;
+     margin-left: 30px;
+     background: url("log\ out.png")no-repeat;
+     background-size: contain;
+     float: right;
+ }
+
+ .sidebar {
+     height: 100%;
+     width: 200px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: #8C3941;
+     padding-top: 80px;
+ }
+
+ .sidebar a {
+     padding-top: 50px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     display: block;
+     line: height 2.5em;
+     ;
+     /* Adjust as needed */
+ }
+
+ .sidebar img {
+     vertical-align: middle;
+     /* Align the image vertically in the middle */
+     margin-right: 10px;
+     /* Adjust as needed */
+     margin-left: 30px;
+     /* Add margin to the left side of the image */
+     width: 20px;
+     /* Set the desired width */
+     height: 20px;
+     /* Set the desired height */
+ }
+
+ .sidebar2 {
+     position: fixed;
+     top: 0;
+     left: 0;
+     padding-top: 20px;
+ }
+
+ .sidebar2 a {
+     padding-top: 20px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     display: block;
+     line: height 2.5em;
+     flex: 1;
+     /* Allow the text to grow and fill available space */
+     overflow: hidden;
+ }
+
+ .sidebar2 img {
+     vertical-align: middle;
+     margin-right: 10px;
+     /* Add margin to the left side of the image */
+     width: 50px;
+     /* Set the desired width */
+     height: 50px;
+     /* Set the desired height */
+ }
+
+
+ .centered-text {
+     margin: 0;
+     height: 100vh;
+     /* Set the height of the body to the full viewport height */
+     display: flex;
+     justify-content: center;
+     /* Center horizontally */
+     align-items: center;
+     /* Center vertically */
+     text-align: center;
+     /* Center the text horizontally within its container */
+     font-size: 80px;
+     /* Adjust font size as needed */
+ }
